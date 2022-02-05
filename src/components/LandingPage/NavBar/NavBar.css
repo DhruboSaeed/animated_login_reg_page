@@ -1,0 +1,50 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex-basis: 1128px;
+  margin: 0 30px;
+}
+
+.nav-bar-main-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(124, 123, 123);
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.company-details {
+  display: flex;
+  gap: 20px;
+}
+
+h3 {
+  color: white;
+}
+
+h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.user-login > button {
+  background: #677eff;
+  color: white;
+  border-radius: 10px;
+}
+
+.user-login > button:hover {
+  cursor: pointer;
+}

@@ -7,7 +7,7 @@
   font-family: "Popins", sans-serif;
 }
 
-.main-container {
+.card-section {
   position: relative;
   min-height: 100vh;
   background: #fffff7;
@@ -18,11 +18,11 @@
   padding: 20px;
 }
 
-.main-container.active {
+.card-section.active {
   background: #bcbcbc;
 }
 
-.container {
+.block-section {
   position: relative;
   width: 800px;
   height: 500px;
@@ -150,50 +150,50 @@ button {
   margin-left: 5px;
 }
 
-.container .signupBx {
+.block-section .signupBx {
   pointer-events: none;
 }
 
-.container.active .signupBx {
+.block-section.active .signupBx {
   pointer-events: initial;
 }
 
-.container .signupBx .formBx {
+.block-section .signupBx .formBx {
   top: 100%;
 }
 
-.container.active .signupBx .formBx {
+.block-section.active .signupBx .formBx {
   top: 0;
 }
 
-.container .signupBx .imgBx {
+.block-section .signupBx .imgBx {
   top: -100%;
   transition: 0.5s;
 }
 
-.container.active .signupBx .imgBx {
+.block-section.active .signupBx .imgBx {
   top: 0;
 }
 
 /* Sign In */
 
-.container .signinBx .formBx {
+.block-section .signinBx .formBx {
   top: 0;
 }
-.container.active .signinBx .formBx {
+.block-section.active .signinBx .formBx {
   top: 100%;
 }
 
-.container .signinBx .imgBx {
+.block-section .signinBx .imgBx {
   top: 0;
   transition: 0.5s;
 }
-.container.active .signinBx .imgBx {
+.block-section.active .signinBx .imgBx {
   top: -100%;
 }
 
 @media (max-width: 991px) {
-  .container {
+  .block-section {
     max-width: 400px;
   }
 
@@ -204,7 +204,7 @@ button {
     width: 100%;
   }
 
-  .container.active .signinBx .formBx{
+  .block-section.active .signinBx .formBx{
       top: -100%;
   }
 }
