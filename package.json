@@ -1,6 +1,5 @@
 {
   "name": "userlogin",
-  "homepage": "https://DhruboSaeed.github.io/animated_login_reg_page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,8 +16,6 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/DhruboSaeed/animated_login_reg_page",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
