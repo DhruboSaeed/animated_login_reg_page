@@ -1,5 +1,5 @@
 # See Live Project
-https://6202941216f20c15c1e11784--romantic-meitner-10e604.netlify.app/
+https://romantic-meitner-10e604.netlify.app/
 
 
 # Getting Started with Create React App
