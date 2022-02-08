@@ -40,24 +40,29 @@
   display: flex;
 }
 
+.errorText {
+  color: red;
+  text-align: end;
+  margin-top: 5px;
+}
 
-.social-media{
+.social-media {
   width: 100%;
   text-align: center;
   margin-top: 20px;
 }
 
-.social-media ul{
+.social-media ul {
   list-style: none;
 }
 
-.social-media ul li{
+.social-media ul li {
   display: inline-block;
   cursor: pointer;
   margin: 25px 15px;
 }
 
-.social-media img{
+.social-media img {
   width: 40px;
   height: 40px;
 }
@@ -73,6 +78,10 @@
   align-items: center;
   padding: 40px;
   transition: 0.5s;
+}
+
+.form-width {
+  width: 100%;
 }
 
 .imgBx {
@@ -102,7 +111,7 @@
   color: #555;
 }
 
-input,
+.input-class,
 button {
   width: 100%;
   padding: 10px;
@@ -204,7 +213,7 @@ button {
     width: 100%;
   }
 
-  .block-section.active .signinBx .formBx{
-      top: -100%;
+  .block-section.active .signinBx .formBx {
+    top: -100%;
   }
 }
