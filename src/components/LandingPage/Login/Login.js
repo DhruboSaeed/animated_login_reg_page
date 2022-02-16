@@ -21,7 +21,7 @@ function Login(props) {
   });
   const onSubmit = (values) => {
     if (JSON.stringify(user) === JSON.stringify(values)) {
-      // navigate("/home");
+      navigate("/home");
       console.log("Done! Login Successfully!");
     } else {
       console.log("Not Done");

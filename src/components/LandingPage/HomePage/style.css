@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popins", sans-serif;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.toolPg {
+  background-color: lightslategray;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.toolPgHeader {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+.form-design {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.level-design {
+  display: inline-block;
+  cursor: default;
+  text-align: start;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.drag-sort {
+  display: flex;
+  background: #fff;
+}
+
+.drag-sort .sort-wrapper {
+  padding: 5px;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.noselect {
+  user-select: none;
+}
+
+.drag-sort .sort-wrapper .inner:hover{
+    cursor: pointer;
+}
+
+.drag-sort .sort-wrapper .inner {
+  margin: 5px;
+  background: #dc3545;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 14px;
+  cursor: move;
+  border-radius: 5px;
+}
+
+.drag-sort .sort-wrapper .inner.domain {
+  background: #000;
+  color: #fff;
+}
+
+.drag-sort .sort-wrapper .inner.free {
+  background: #ffc107;
+  color: #000;
+}
+
+.col-md-4 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/* Toggle Switch Button */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 16px;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  top: -4px;
+  border: 0px;
+  box-shadow: rgb(0 0 0 / 60%) 0px 1px 5px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background: rgb(4, 117, 42);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.width{
+    width: 42%;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-right: 5px;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+/* Package Details */
+
+.package-details{
+    margin-top: 20px;
+}
+
+.package-details p{
+    text-align: start;
+    background: white;
+}
+
+
+
+
+/* Responsive */
+
+@media (max-width: 450px) {
+   .d-flex{
+       flex-direction: column;
+   }
+
+   .align-items-center{
+       align-items: flex-start !important;
+       justify-content: unset;
+   }
+
+   .switch{
+       margin: 10px 0px;
+   }
+  }
